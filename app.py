@@ -225,7 +225,7 @@ def main():
         st.error("AWS client init failed.")
         return
 
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["\U0001F4DD Text Input", "\U0001F3A4 Audio Input",  "\U0001F4C4 PDF Reader", "\U0001F5BC Image Reader", "\U0001F4C1 Excel Reader"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["\U0001F4DD Text Input", "\U0001F3A4 Audio Input",  "\U0001F4C4 PDF Reader", "\U0001F5BC Image Reader", "\U0001F4C1 Excel Reader"])
 
     with tab1:
         st.header("Text Input Processing")
