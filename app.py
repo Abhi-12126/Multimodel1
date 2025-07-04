@@ -6,8 +6,8 @@ import requests
 import io
 from PIL import Image
 import os
-import sounddevice as sd
-import soundfile as sf
+# import sounddevice as sd
+# import soundfile as sf
 import tempfile
 from PyPDF2 import PdfReader
 import fitz  # PyMuPDF
